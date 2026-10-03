@@ -16,14 +16,26 @@ public class PositiveIntegerTest {
 //            }
 //        }
 
-        // test isAbundant()
+//        // test isAbundant()
+//        while (s.hasNextInt()){
+//            int inputnum = s.nextInt();
+//            if (inputnum >0){
+//                PositiveInteger a = new PositiveInteger(inputnum);
+//                System.out.println(a.isAbundant());
+//            }
+//            else {
+//                System.out.println("Please enter a positive integer!");
+//            }
+//        }
+
+        // test ssNarcissistic()
         while (s.hasNextInt()){
             int inputnum = s.nextInt();
-            if (inputnum >0){
+            if (inputnum >0) {
                 PositiveInteger a = new PositiveInteger(inputnum);
-                System.out.println(a.isAbundant());
+                System.out.println(a.isNarcissistic());
             }
-            else {
+                else {
                 System.out.println("Please enter a positive integer!");
             }
         }
