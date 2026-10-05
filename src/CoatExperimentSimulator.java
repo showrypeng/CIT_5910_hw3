@@ -43,7 +43,13 @@ public class CoatExperimentSimulator {
     }
 
     public double answerToQuestionTwo(int[] results) {
-        return 0.0;
+        int total = 0;
+
+        for (int i = 0; i < results.length; i++) {
+            total += results[i];
+        }
+
+        return (double) total / results.length;
     }
 }
 
